@@ -30,7 +30,7 @@ You can also use === under the text for level 1, whatever the number of the =! a
 
 ### Inline link
 
-[Link to the markdown tutorial where I got those notes](https://www.markdowntutorial.com/), enclose your linked words with [], followed by the link enclosed with ()
+[Link to the markdown tutorial where I got those notes](https://www.markdowntutorial.com/), enclose your linked words with [], followed by the link enclosed with (), if you want to add a title, a tooltip to show when the mouse hover on the link. add the title within a quotation mark("") inside the parathenses after the link itself.
 
 ### Reference link
 
@@ -43,6 +43,8 @@ At the end of a markdown document. Assign the variable, should be enclosed again
 [Link to google again][google]
 
 [google] : www.google.com
+
+Markdown does not support URL space directly as well, so instead of a space, use "%20"
 
 ## Insert an image
 
@@ -111,6 +113,10 @@ Use double backtick if the code contain backtick
 ### Horizontal Rules
 
 Add a blank line before and after a three asterisks (***) or three dashes (---) or three underscores (___)
+
+### Escaping a caracter
+
+use backward slash \
 
 
 
